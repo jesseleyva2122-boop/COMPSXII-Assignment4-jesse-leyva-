@@ -1,0 +1,1206 @@
+{
+  "initial_benchmark": [
+    {
+      "Opponent": "Always Invest",
+      "Your Score": 304.0,
+      "Opp Score": 294.0,
+      "Score SD": 3.4641016151377544,
+      "Wins": 5,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Always Undercut",
+      "Your Score": 98.0,
+      "Opp Score": 108.0,
+      "Score SD": 0.0,
+      "Wins": 0,
+      "Losses": 5,
+      "Ties": 0,
+      "Result": "L"
+    },
+    {
+      "Opponent": "Tit-for-Tat",
+      "Your Score": 298.4,
+      "Opp Score": 298.4,
+      "Score SD": 1.140175425099138,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 5,
+      "Result": "T"
+    },
+    {
+      "Opponent": "Grim Trigger",
+      "Your Score": 136.8,
+      "Opp Score": 145.8,
+      "Score SD": 76.1426293215568,
+      "Wins": 0,
+      "Losses": 5,
+      "Ties": 0,
+      "Result": "L"
+    },
+    {
+      "Opponent": "Pavlov",
+      "Your Score": 279.2,
+      "Opp Score": 185.2,
+      "Score SD": 13.845576911057192,
+      "Wins": 4,
+      "Losses": 0,
+      "Ties": 1,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Tit-for-Two-Tats",
+      "Your Score": 302.8,
+      "Opp Score": 293.8,
+      "Score SD": 2.280350850198276,
+      "Wins": 4,
+      "Losses": 0,
+      "Ties": 1,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Generous Tit-for-Tat",
+      "Your Score": 298.8,
+      "Opp Score": 298.8,
+      "Score SD": 0.8366600265340756,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 5,
+      "Result": "T"
+    },
+    {
+      "Opponent": "Adaptive",
+      "Your Score": 302.6,
+      "Opp Score": 294.6,
+      "Score SD": 2.4083189157584592,
+      "Wins": 5,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Random (0.7)",
+      "Your Score": 233.2,
+      "Opp Score": 324.2,
+      "Score SD": 10.709808588392232,
+      "Wins": 0,
+      "Losses": 5,
+      "Ties": 0,
+      "Result": "L"
+    },
+    {
+      "Opponent": "Random (0.3)",
+      "Your Score": 211.0,
+      "Opp Score": 126.0,
+      "Score SD": 7.968688725254614,
+      "Wins": 5,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    }
+  ],
+  "experiments": [
+    {
+      "trial": 1,
+      "generations": 25,
+      "pop_size": 28,
+      "mutation_rate": 0.1,
+      "elitism": 2,
+      "seed": 42,
+      "training_fitness": 162.86,
+      "validation_score": 282.5333333333333
+    },
+    {
+      "trial": 2,
+      "generations": 35,
+      "pop_size": 32,
+      "mutation_rate": 0.18,
+      "elitism": 3,
+      "seed": 42,
+      "training_fitness": 166.205,
+      "validation_score": 242.0666666666667
+    },
+    {
+      "trial": 3,
+      "generations": 35,
+      "pop_size": 32,
+      "mutation_rate": 0.28,
+      "elitism": 2,
+      "seed": 42,
+      "training_fitness": 162.68000000000004,
+      "validation_score": 290.26666666666665
+    }
+  ],
+  "selected_config": {
+    "generations": 35,
+    "pop_size": 32,
+    "mutation_rate": 0.28,
+    "elitism": 2,
+    "seed": 42
+  },
+  "genes": [
+    1.0,
+    0.10806718135960316,
+    0.9596804605582223,
+    0.028486584206704694,
+    0.8419352739009551,
+    0.41002771947750827,
+    0.0,
+    1.0,
+    0.9481837114046969,
+    0.7627127683594422
+  ],
+  "baseline_genes": [
+    0.6441403510190016,
+    0.9890810929895767,
+    0.7746154732811077,
+    0.0120912284638947,
+    0.8474059666882865,
+    0.062268616154764
+  ],
+  "comparison": [
+    {
+      "Model": "Random search",
+      "Split": "Training",
+      "Mean Score": 240.70999999999998,
+      "Match Win %": 0.0,
+      "Match Tie %": 69.0
+    },
+    {
+      "Model": "Random search",
+      "Split": "Validation",
+      "Mean Score": 300.0,
+      "Match Win %": 0.0,
+      "Match Tie %": 100.0
+    },
+    {
+      "Model": "Random search",
+      "Split": "Unseen test",
+      "Mean Score": 251.36000000000004,
+      "Match Win %": 0.0,
+      "Match Tie %": 24.0
+    },
+    {
+      "Model": "Random search",
+      "Split": "All",
+      "Mean Score": 253.54999999999998,
+      "Match Win %": 0.0,
+      "Match Tie %": 61.666666666666664
+    },
+    {
+      "Model": "Original GA",
+      "Split": "Training",
+      "Mean Score": 226.47999999999996,
+      "Match Win %": 46.0,
+      "Match Tie %": 21.0
+    },
+    {
+      "Model": "Original GA",
+      "Split": "Validation",
+      "Mean Score": 290.06666666666666,
+      "Match Win %": 46.666666666666664,
+      "Match Tie %": 40.0
+    },
+    {
+      "Model": "Original GA",
+      "Split": "Unseen test",
+      "Mean Score": 221.34,
+      "Match Win %": 42.0,
+      "Match Tie %": 22.0
+    },
+    {
+      "Model": "Original GA",
+      "Split": "All",
+      "Mean Score": 235.65000000000003,
+      "Match Win %": 45.0,
+      "Match Tie %": 24.444444444444443
+    },
+    {
+      "Model": "Improved GA",
+      "Split": "Training",
+      "Mean Score": 259.76000000000005,
+      "Match Win %": 23.0,
+      "Match Tie %": 62.0
+    },
+    {
+      "Model": "Improved GA",
+      "Split": "Validation",
+      "Mean Score": 296.26666666666665,
+      "Match Win %": 10.0,
+      "Match Tie %": 90.0
+    },
+    {
+      "Model": "Improved GA",
+      "Split": "Unseen test",
+      "Mean Score": 247.47999999999996,
+      "Match Win %": 64.0,
+      "Match Tie %": 36.0
+    },
+    {
+      "Model": "Improved GA",
+      "Split": "All",
+      "Mean Score": 262.43333333333334,
+      "Match Win %": 32.22222222222222,
+      "Match Tie %": 59.44444444444444
+    },
+    {
+      "Model": "Unit 4 custom",
+      "Split": "Training",
+      "Mean Score": 240.2,
+      "Match Win %": 10.0,
+      "Match Tie %": 60.0
+    },
+    {
+      "Model": "Unit 4 custom",
+      "Split": "Validation",
+      "Mean Score": 300.0,
+      "Match Win %": 0.0,
+      "Match Tie %": 100.0
+    },
+    {
+      "Model": "Unit 4 custom",
+      "Split": "Unseen test",
+      "Mean Score": 250.01999999999998,
+      "Match Win %": 28.0,
+      "Match Tie %": 20.0
+    },
+    {
+      "Model": "Unit 4 custom",
+      "Split": "All",
+      "Mean Score": 252.89444444444447,
+      "Match Win %": 13.333333333333334,
+      "Match Tie %": 55.55555555555556
+    },
+    {
+      "Model": "Tit-for-Tat",
+      "Split": "Training",
+      "Mean Score": 260.8,
+      "Match Win %": 0.0,
+      "Match Tie %": 80.0
+    },
+    {
+      "Model": "Tit-for-Tat",
+      "Split": "Validation",
+      "Mean Score": 300.0,
+      "Match Win %": 0.0,
+      "Match Tie %": 100.0
+    },
+    {
+      "Model": "Tit-for-Tat",
+      "Split": "Unseen test",
+      "Mean Score": 242.06,
+      "Match Win %": 0.0,
+      "Match Tie %": 72.0
+    },
+    {
+      "Model": "Tit-for-Tat",
+      "Split": "All",
+      "Mean Score": 262.1277777777778,
+      "Match Win %": 0.0,
+      "Match Tie %": 81.11111111111111
+    },
+    {
+      "Model": "Always Undercut",
+      "Split": "Training",
+      "Mean Score": 201.12,
+      "Match Win %": 90.0,
+      "Match Tie %": 10.0
+    },
+    {
+      "Model": "Always Undercut",
+      "Split": "Validation",
+      "Mean Score": 164.9333333333333,
+      "Match Win %": 100.0,
+      "Match Tie %": 0.0
+    },
+    {
+      "Model": "Always Undercut",
+      "Split": "Unseen test",
+      "Mean Score": 219.27999999999997,
+      "Match Win %": 80.0,
+      "Match Tie %": 20.0
+    },
+    {
+      "Model": "Always Undercut",
+      "Split": "All",
+      "Mean Score": 200.13333333333333,
+      "Match Win %": 88.88888888888889,
+      "Match Tie %": 11.11111111111111
+    }
+  ],
+  "improved_opponents": [
+    {
+      "Opponent": "Always Invest",
+      "Your Score": 300.0,
+      "Opp Score": 300.0,
+      "Score SD": 0.0,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 10,
+      "Result": "T",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Always Undercut",
+      "Your Score": 95.2,
+      "Opp Score": 119.2,
+      "Score SD": 0.4216370213557839,
+      "Wins": 0,
+      "Losses": 10,
+      "Ties": 0,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Tit-for-Tat",
+      "Your Score": 265.0,
+      "Opp Score": 264.0,
+      "Score SD": 73.78647873726219,
+      "Wins": 2,
+      "Losses": 0,
+      "Ties": 8,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Grim Trigger",
+      "Your Score": 300.0,
+      "Opp Score": 300.0,
+      "Score SD": 0.0,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 10,
+      "Result": "T",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Pavlov",
+      "Your Score": 298.8,
+      "Opp Score": 251.8,
+      "Score SD": 2.5298221281347035,
+      "Wins": 2,
+      "Losses": 0,
+      "Ties": 8,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Tit-for-Two-Tats",
+      "Your Score": 300.4,
+      "Opp Score": 299.4,
+      "Score SD": 0.8432740427115678,
+      "Wins": 2,
+      "Losses": 0,
+      "Ties": 8,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Generous Tit-for-Tat",
+      "Your Score": 300.0,
+      "Opp Score": 300.0,
+      "Score SD": 0.0,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 10,
+      "Result": "T",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Adaptive",
+      "Your Score": 300.4,
+      "Opp Score": 299.4,
+      "Score SD": 0.8432740427115678,
+      "Wins": 2,
+      "Losses": 0,
+      "Ties": 8,
+      "Result": "W",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Suspicious Tit-for-Tat",
+      "Your Score": 118.3,
+      "Opp Score": 118.3,
+      "Score SD": 4.347413023856832,
+      "Wins": 0,
+      "Losses": 0,
+      "Ties": 10,
+      "Result": "T",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Gradual",
+      "Your Score": 288.4,
+      "Opp Score": 279.9,
+      "Score SD": 36.682420857953204,
+      "Wins": 1,
+      "Losses": 0,
+      "Ties": 9,
+      "Result": "W",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Prober",
+      "Your Score": 299.2,
+      "Opp Score": 298.2,
+      "Score SD": 0.4216370213557839,
+      "Wins": 2,
+      "Losses": 0,
+      "Ties": 8,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Hard Majority",
+      "Your Score": 280.9,
+      "Opp Score": 282.4,
+      "Score SD": 60.39950330921605,
+      "Wins": 0,
+      "Losses": 1,
+      "Ties": 9,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Soft Majority",
+      "Your Score": 261.8,
+      "Opp Score": 264.8,
+      "Score SD": 80.53267107895472,
+      "Wins": 0,
+      "Losses": 2,
+      "Ties": 8,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Random (0.9)",
+      "Your Score": 367.8,
+      "Opp Score": 160.8,
+      "Score SD": 48.35930336783422,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Random (0.7)",
+      "Your Score": 316.6,
+      "Opp Score": 149.6,
+      "Score SD": 9.935346552139542,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.5)",
+      "Your Score": 285.3,
+      "Opp Score": 94.8,
+      "Score SD": 11.245245909074447,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.3)",
+      "Your Score": 216.8,
+      "Opp Score": 81.8,
+      "Score SD": 16.198765385053267,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.1)",
+      "Your Score": 128.9,
+      "Opp Score": 107.9,
+      "Score SD": 14.332945731193337,
+      "Wins": 7,
+      "Losses": 2,
+      "Ties": 1,
+      "Result": "W",
+      "Split": "Training"
+    }
+  ],
+  "original_opponents": [
+    {
+      "Opponent": "Always Invest",
+      "Your Score": 303.8,
+      "Opp Score": 294.3,
+      "Score SD": 2.394437999475729,
+      "Wins": 9,
+      "Losses": 0,
+      "Ties": 1,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Always Undercut",
+      "Your Score": 98.0,
+      "Opp Score": 108.0,
+      "Score SD": 0.816496580927726,
+      "Wins": 0,
+      "Losses": 10,
+      "Ties": 0,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Tit-for-Tat",
+      "Your Score": 242.2,
+      "Opp Score": 240.7,
+      "Score SD": 89.19616334549124,
+      "Wins": 3,
+      "Losses": 0,
+      "Ties": 7,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Grim Trigger",
+      "Your Score": 152.0,
+      "Opp Score": 163.5,
+      "Score SD": 70.49034606872695,
+      "Wins": 0,
+      "Losses": 9,
+      "Ties": 1,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Pavlov",
+      "Your Score": 276.4,
+      "Opp Score": 160.9,
+      "Score SD": 15.770577386738607,
+      "Wins": 8,
+      "Losses": 0,
+      "Ties": 2,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Tit-for-Two-Tats",
+      "Your Score": 302.6,
+      "Opp Score": 295.6,
+      "Score SD": 2.3664319132398464,
+      "Wins": 7,
+      "Losses": 0,
+      "Ties": 3,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Generous Tit-for-Tat",
+      "Your Score": 284.3,
+      "Opp Score": 277.8,
+      "Score SD": 47.20416648277282,
+      "Wins": 5,
+      "Losses": 0,
+      "Ties": 5,
+      "Result": "W",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Adaptive",
+      "Your Score": 302.6,
+      "Opp Score": 296.1,
+      "Score SD": 1.8973665961010275,
+      "Wins": 8,
+      "Losses": 0,
+      "Ties": 2,
+      "Result": "W",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Suspicious Tit-for-Tat",
+      "Your Score": 162.1,
+      "Opp Score": 163.1,
+      "Score SD": 83.83111329068436,
+      "Wins": 0,
+      "Losses": 2,
+      "Ties": 8,
+      "Result": "L",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Gradual",
+      "Your Score": 283.3,
+      "Opp Score": 279.8,
+      "Score SD": 36.2983011540026,
+      "Wins": 1,
+      "Losses": 4,
+      "Ties": 5,
+      "Result": "W",
+      "Split": "Validation"
+    },
+    {
+      "Opponent": "Prober",
+      "Your Score": 278.2,
+      "Opp Score": 279.2,
+      "Score SD": 61.93509147127786,
+      "Wins": 2,
+      "Losses": 3,
+      "Ties": 5,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Hard Majority",
+      "Your Score": 242.0,
+      "Opp Score": 238.0,
+      "Score SD": 95.71717598100028,
+      "Wins": 6,
+      "Losses": 1,
+      "Ties": 3,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Soft Majority",
+      "Your Score": 262.0,
+      "Opp Score": 256.0,
+      "Score SD": 83.2946576918352,
+      "Wins": 8,
+      "Losses": 0,
+      "Ties": 2,
+      "Result": "W",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Random (0.9)",
+      "Your Score": 275.6,
+      "Opp Score": 311.6,
+      "Score SD": 11.276327219248097,
+      "Wins": 0,
+      "Losses": 10,
+      "Ties": 0,
+      "Result": "L",
+      "Split": "Training"
+    },
+    {
+      "Opponent": "Random (0.7)",
+      "Your Score": 225.9,
+      "Opp Score": 324.4,
+      "Score SD": 9.848293704438799,
+      "Wins": 0,
+      "Losses": 10,
+      "Ties": 0,
+      "Result": "L",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.5)",
+      "Your Score": 220.4,
+      "Opp Score": 231.9,
+      "Score SD": 5.232377832092956,
+      "Wins": 4,
+      "Losses": 6,
+      "Ties": 0,
+      "Result": "L",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.3)",
+      "Your Score": 195.7,
+      "Opp Score": 115.7,
+      "Score SD": 14.56060133068381,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Unseen test"
+    },
+    {
+      "Opponent": "Random (0.1)",
+      "Your Score": 134.6,
+      "Opp Score": 99.6,
+      "Score SD": 14.112248423109463,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W",
+      "Split": "Training"
+    }
+  ],
+  "stress": [
+    {
+      "Opponent": "Stress 0 Tit-for-Tat",
+      "Your Score": 167.9,
+      "Opp Score": 128.9,
+      "Score SD": 13.714955340794953,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Stress 1 Generous Tit-for-Tat",
+      "Your Score": 188.2,
+      "Opp Score": 112.2,
+      "Score SD": 17.66226360225539,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Stress 2 Grim Trigger",
+      "Your Score": 145.7,
+      "Opp Score": 113.7,
+      "Score SD": 13.047349667014114,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Stress 3 Random (0.6)",
+      "Your Score": 303.9,
+      "Opp Score": 114.4,
+      "Score SD": 19.42764353526524,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Stress 4 Random (0.2)",
+      "Your Score": 171.6,
+      "Opp Score": 97.1,
+      "Score SD": 14.531192502873106,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    },
+    {
+      "Opponent": "Stress 5 Adaptive Forgiving",
+      "Your Score": 179.7,
+      "Opp Score": 149.2,
+      "Score SD": 28.495808658662614,
+      "Wins": 10,
+      "Losses": 0,
+      "Ties": 0,
+      "Result": "W"
+    }
+  ],
+  "tournaments": [
+    {
+      "Model": "Original GA",
+      "Seed": 801,
+      "Rank": 7,
+      "Score": 4519
+    },
+    {
+      "Model": "Original GA",
+      "Seed": 802,
+      "Rank": 10,
+      "Score": 4354
+    },
+    {
+      "Model": "Original GA",
+      "Seed": 803,
+      "Rank": 13,
+      "Score": 4133
+    },
+    {
+      "Model": "Original GA",
+      "Seed": 804,
+      "Rank": 11,
+      "Score": 4309
+    },
+    {
+      "Model": "Original GA",
+      "Seed": 805,
+      "Rank": 13,
+      "Score": 4143
+    },
+    {
+      "Model": "Improved GA",
+      "Seed": 801,
+      "Rank": 1,
+      "Score": 4819
+    },
+    {
+      "Model": "Improved GA",
+      "Seed": 802,
+      "Rank": 6,
+      "Score": 4657
+    },
+    {
+      "Model": "Improved GA",
+      "Seed": 803,
+      "Rank": 5,
+      "Score": 4725
+    },
+    {
+      "Model": "Improved GA",
+      "Seed": 804,
+      "Rank": 1,
+      "Score": 4787
+    },
+    {
+      "Model": "Improved GA",
+      "Seed": 805,
+      "Rank": 8,
+      "Score": 4591
+    }
+  ],
+  "final_leaderboard": [
+    [
+      "Gradual",
+      4833
+    ],
+    [
+      "Tit-for-Tat",
+      4723
+    ],
+    [
+      "Hard Majority",
+      4711
+    ],
+    [
+      "Pavlov",
+      4701
+    ],
+    [
+      "Prober",
+      4634
+    ],
+    [
+      "Soft Majority",
+      4630
+    ],
+    [
+      "Grim Trigger",
+      4619
+    ],
+    [
+      "Leyva Adaptive Guard",
+      4591
+    ],
+    [
+      "Generous Tit-for-Tat",
+      4520
+    ],
+    [
+      "Adaptive",
+      4471
+    ],
+    [
+      "Tit-for-Two-Tats",
+      4433
+    ],
+    [
+      "Suspicious Tit-for-Tat",
+      4164
+    ],
+    [
+      "Random (0.5)",
+      4065
+    ],
+    [
+      "Always Invest",
+      4056
+    ],
+    [
+      "Random (0.7)",
+      3769
+    ],
+    [
+      "Always Undercut",
+      3712
+    ],
+    [
+      "Random (0.9)",
+      3669
+    ],
+    [
+      "Random (0.1)",
+      3643
+    ],
+    [
+      "Random (0.3)",
+      3585
+    ]
+  ],
+  "training_names": [
+    "Always Undercut",
+    "Always Invest",
+    "Grim Trigger",
+    "Tit-for-Tat",
+    "Pavlov",
+    "Soft Majority",
+    "Hard Majority",
+    "Prober",
+    "Random (0.1)",
+    "Random (0.9)"
+  ],
+  "validation_names": [
+    "Gradual",
+    "Adaptive",
+    "Generous Tit-for-Tat"
+  ],
+  "test_names": [
+    "Tit-for-Two-Tats",
+    "Suspicious Tit-for-Tat",
+    "Random (0.7)",
+    "Random (0.5)",
+    "Random (0.3)"
+  ],
+  "training_history": [
+    {
+      "generation": 1,
+      "best": 151.79,
+      "average": 118.25421875,
+      "diversity": 0.3680803000990559,
+      "mutation": 0.28
+    },
+    {
+      "generation": 2,
+      "best": 151.79,
+      "average": 126.29781249999999,
+      "diversity": 0.3187017485013725,
+      "mutation": 0.28
+    },
+    {
+      "generation": 3,
+      "best": 151.79,
+      "average": 128.07484375,
+      "diversity": 0.3326015366753662,
+      "mutation": 0.28
+    },
+    {
+      "generation": 4,
+      "best": 151.79,
+      "average": 131.24546875,
+      "diversity": 0.3277231633351585,
+      "mutation": 0.28
+    },
+    {
+      "generation": 5,
+      "best": 154.02500000000003,
+      "average": 132.48062500000003,
+      "diversity": 0.29293334361365087,
+      "mutation": 0.28
+    },
+    {
+      "generation": 6,
+      "best": 157.96,
+      "average": 138.88640625,
+      "diversity": 0.23967081406737142,
+      "mutation": 0.28
+    },
+    {
+      "generation": 7,
+      "best": 157.96,
+      "average": 146.63796875,
+      "diversity": 0.22013228011485975,
+      "mutation": 0.28
+    },
+    {
+      "generation": 8,
+      "best": 157.96,
+      "average": 148.19953125,
+      "diversity": 0.2026687137137046,
+      "mutation": 0.28
+    },
+    {
+      "generation": 9,
+      "best": 159.56,
+      "average": 147.0115625,
+      "diversity": 0.2052215721559309,
+      "mutation": 0.28
+    },
+    {
+      "generation": 10,
+      "best": 159.89499999999998,
+      "average": 152.49109375,
+      "diversity": 0.14903187317076555,
+      "mutation": 0.28
+    },
+    {
+      "generation": 11,
+      "best": 159.89499999999998,
+      "average": 151.46734375,
+      "diversity": 0.1370505545951084,
+      "mutation": 0.28
+    },
+    {
+      "generation": 12,
+      "best": 159.89499999999998,
+      "average": 153.38125,
+      "diversity": 0.13622643705226387,
+      "mutation": 0.28
+    },
+    {
+      "generation": 13,
+      "best": 160.82500000000005,
+      "average": 151.046875,
+      "diversity": 0.14151100720211243,
+      "mutation": 0.28
+    },
+    {
+      "generation": 14,
+      "best": 160.895,
+      "average": 150.71015625,
+      "diversity": 0.14192255350415203,
+      "mutation": 0.28
+    },
+    {
+      "generation": 15,
+      "best": 161.05,
+      "average": 156.58828125000002,
+      "diversity": 0.09984768797957017,
+      "mutation": 0.28
+    },
+    {
+      "generation": 16,
+      "best": 162.23500000000004,
+      "average": 155.46140625,
+      "diversity": 0.12331927734180319,
+      "mutation": 0.28
+    },
+    {
+      "generation": 17,
+      "best": 162.23500000000004,
+      "average": 156.02187500000002,
+      "diversity": 0.1033585195920258,
+      "mutation": 0.28
+    },
+    {
+      "generation": 18,
+      "best": 162.23500000000004,
+      "average": 149.82765625000002,
+      "diversity": 0.1435705094865242,
+      "mutation": 0.28
+    },
+    {
+      "generation": 19,
+      "best": 162.32500000000005,
+      "average": 154.7525,
+      "diversity": 0.13537967837683498,
+      "mutation": 0.28
+    },
+    {
+      "generation": 20,
+      "best": 162.32500000000005,
+      "average": 157.55265625,
+      "diversity": 0.11117148524530104,
+      "mutation": 0.28
+    },
+    {
+      "generation": 21,
+      "best": 162.32500000000005,
+      "average": 158.99671875,
+      "diversity": 0.09033369825361315,
+      "mutation": 0.28
+    },
+    {
+      "generation": 22,
+      "best": 162.32500000000005,
+      "average": 158.19359375000002,
+      "diversity": 0.08818256306764082,
+      "mutation": 0.28
+    },
+    {
+      "generation": 23,
+      "best": 162.32500000000005,
+      "average": 157.93062500000002,
+      "diversity": 0.09151216350793341,
+      "mutation": 0.28
+    },
+    {
+      "generation": 24,
+      "best": 162.39000000000001,
+      "average": 157.9040625,
+      "diversity": 0.09954403994686205,
+      "mutation": 0.28
+    },
+    {
+      "generation": 25,
+      "best": 162.43500000000003,
+      "average": 157.77453125000002,
+      "diversity": 0.08384994624870691,
+      "mutation": 0.28
+    },
+    {
+      "generation": 26,
+      "best": 162.43500000000003,
+      "average": 157.11062500000003,
+      "diversity": 0.09407702907241634,
+      "mutation": 0.28
+    },
+    {
+      "generation": 27,
+      "best": 162.43500000000003,
+      "average": 156.391875,
+      "diversity": 0.10326716085319901,
+      "mutation": 0.28
+    },
+    {
+      "generation": 28,
+      "best": 162.46000000000004,
+      "average": 158.79515625000002,
+      "diversity": 0.09549304126380195,
+      "mutation": 0.28
+    },
+    {
+      "generation": 29,
+      "best": 162.55000000000004,
+      "average": 160.53546875,
+      "diversity": 0.07477259876450151,
+      "mutation": 0.44800000000000006
+    },
+    {
+      "generation": 30,
+      "best": 162.55000000000004,
+      "average": 158.52343750000003,
+      "diversity": 0.08921326490210615,
+      "mutation": 0.28
+    },
+    {
+      "generation": 31,
+      "best": 162.55000000000004,
+      "average": 154.8859375,
+      "diversity": 0.11351062862890157,
+      "mutation": 0.28
+    },
+    {
+      "generation": 32,
+      "best": 162.615,
+      "average": 156.71484375,
+      "diversity": 0.09321957752077878,
+      "mutation": 0.28
+    },
+    {
+      "generation": 33,
+      "best": 162.615,
+      "average": 158.5396875,
+      "diversity": 0.10043526595877177,
+      "mutation": 0.28
+    },
+    {
+      "generation": 34,
+      "best": 162.615,
+      "average": 161.27828125000002,
+      "diversity": 0.08113165724112673,
+      "mutation": 0.28
+    },
+    {
+      "generation": 35,
+      "best": 162.68000000000004,
+      "average": 158.11234375000004,
+      "diversity": 0.09343254336384675,
+      "mutation": 0.28
+    }
+  ]
+}

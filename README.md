@@ -47,3 +47,8 @@ platform, stack size, and compiler. `safe_recursion(0, 10)` shows the bounded fi
 - Checked factorial/Fibonacci values, depth and call counts, array callbacks,
   empty events, null callback rejection, and the 10-callback registration limit.
 - Separately confirmed the intentional overflow terminates with SIGSEGV.
+
+
+## Agentic Battle Royale (separate assignment)
+
+Jesse's completed Agentic Battle Royale project is in [Agentic-Battle-Royale](Agentic-Battle-Royale/README.md). Open the [executed Unit 6 notebook](Agentic-Battle-Royale/Act%202/unit_6_tournament.ipynb) for both tournament formats and the 859-word reflection. Existing C assignment files are retained. The notebook documents use of the three-agent starter roster because the instructor's replacement roster was unavailable.

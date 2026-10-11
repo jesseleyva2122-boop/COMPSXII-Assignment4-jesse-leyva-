@@ -1,0 +1,254 @@
+{
+  "primary_seed": 2026,
+  "roster_source": "existing course starter roster, not instructor replacement class roster",
+  "roster_size": 3,
+  "agent_sha256": "b52e6cb75ad5a5769c3f89de5b090bf29b9367d0a1d3172b340a4f3acd10d3ec",
+  "rounds_per_match": 100,
+  "round_robin_repetitions": 3,
+  "ranking_scored_games_per_agent": 6,
+  "win_rate_games_per_agent": 12,
+  "head_to_head": [
+    {
+      "opponent": "King kong",
+      "games": 6,
+      "wins": 1,
+      "ties": 4,
+      "losses": 1,
+      "mean_my_score": 261.5,
+      "mean_opponent_score": 256.5
+    },
+    {
+      "opponent": "My Evolved Agent",
+      "games": 6,
+      "wins": 0,
+      "ties": 6,
+      "losses": 0,
+      "mean_my_score": 300.0,
+      "mean_opponent_score": 300.0
+    }
+  ],
+  "sensitivity": [
+    {
+      "seed": 11,
+      "bracket_champion": "My Evolved Agent",
+      "round_robin_champion": "Leyva Adaptive Guard",
+      "my_rank": 1,
+      "my_total_score": 1493,
+      "my_win_rate": 0.08333333333333333
+    },
+    {
+      "seed": 22,
+      "bracket_champion": "Leyva Adaptive Guard",
+      "round_robin_champion": "Leyva Adaptive Guard",
+      "my_rank": 1,
+      "my_total_score": 1610,
+      "my_win_rate": 0.25
+    },
+    {
+      "seed": 33,
+      "bracket_champion": "Leyva Adaptive Guard",
+      "round_robin_champion": "My Evolved Agent",
+      "my_rank": 3,
+      "my_total_score": 1390,
+      "my_win_rate": 0.3333333333333333
+    },
+    {
+      "seed": 44,
+      "bracket_champion": "My Evolved Agent",
+      "round_robin_champion": "My Evolved Agent",
+      "my_rank": 2,
+      "my_total_score": 1457,
+      "my_win_rate": 0.25
+    },
+    {
+      "seed": 55,
+      "bracket_champion": "Leyva Adaptive Guard",
+      "round_robin_champion": "King kong",
+      "my_rank": 2,
+      "my_total_score": 1440,
+      "my_win_rate": 0.16666666666666666
+    }
+  ],
+  "supplemental_baselines": [
+    {
+      "opponent": "Always Invest",
+      "games": 10,
+      "mean_my_score": 300.2,
+      "std_my_score": 0.6000000000000001,
+      "mean_opponent_score": 299.7,
+      "wins": 1,
+      "ties": 9,
+      "losses": 0
+    },
+    {
+      "opponent": "Always Undercut",
+      "games": 10,
+      "mean_my_score": 95.1,
+      "std_my_score": 0.30000000000000004,
+      "mean_opponent_score": 119.6,
+      "wins": 0,
+      "ties": 0,
+      "losses": 10
+    },
+    {
+      "opponent": "Tit-for-Tat",
+      "games": 10,
+      "mean_my_score": 282.5,
+      "std_my_score": 52.5,
+      "mean_opponent_score": 282.0,
+      "wins": 1,
+      "ties": 9,
+      "losses": 0
+    },
+    {
+      "opponent": "Grim Trigger",
+      "games": 10,
+      "mean_my_score": 279.9,
+      "std_my_score": 60.300000000000004,
+      "mean_opponent_score": 281.9,
+      "wins": 0,
+      "ties": 9,
+      "losses": 1
+    },
+    {
+      "opponent": "Pavlov",
+      "games": 10,
+      "mean_my_score": 300.0,
+      "std_my_score": 0.0,
+      "mean_opponent_score": 300.0,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0
+    },
+    {
+      "opponent": "Tit-for-Two-Tats",
+      "games": 10,
+      "mean_my_score": 300.2,
+      "std_my_score": 0.6000000000000001,
+      "mean_opponent_score": 299.7,
+      "wins": 1,
+      "ties": 9,
+      "losses": 0
+    },
+    {
+      "opponent": "Generous Tit-for-Tat",
+      "games": 10,
+      "mean_my_score": 272.5,
+      "std_my_score": 55.036805866619844,
+      "mean_opponent_score": 260.5,
+      "wins": 2,
+      "ties": 8,
+      "losses": 0
+    },
+    {
+      "opponent": "Adaptive",
+      "games": 10,
+      "mean_my_score": 300.0,
+      "std_my_score": 0.0,
+      "mean_opponent_score": 300.0,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0
+    },
+    {
+      "opponent": "Suspicious Tit-for-Tat",
+      "games": 10,
+      "mean_my_score": 120.1,
+      "std_my_score": 2.7,
+      "mean_opponent_score": 120.1,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0
+    },
+    {
+      "opponent": "Gradual",
+      "games": 10,
+      "mean_my_score": 288.4,
+      "std_my_score": 34.800000000000004,
+      "mean_opponent_score": 279.9,
+      "wins": 1,
+      "ties": 9,
+      "losses": 0
+    },
+    {
+      "opponent": "Hard Majority",
+      "games": 10,
+      "mean_my_score": 261.8,
+      "std_my_score": 76.4,
+      "mean_opponent_score": 264.8,
+      "wins": 0,
+      "ties": 8,
+      "losses": 2
+    },
+    {
+      "opponent": "Soft Majority",
+      "games": 10,
+      "mean_my_score": 300.0,
+      "std_my_score": 0.0,
+      "mean_opponent_score": 300.0,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0
+    },
+    {
+      "opponent": "Prober",
+      "games": 10,
+      "mean_my_score": 299.1,
+      "std_my_score": 0.30000000000000004,
+      "mean_opponent_score": 298.6,
+      "wins": 1,
+      "ties": 9,
+      "losses": 0
+    },
+    {
+      "opponent": "Random (0.1)",
+      "games": 10,
+      "mean_my_score": 137.3,
+      "std_my_score": 16.911830178901393,
+      "mean_opponent_score": 105.8,
+      "wins": 9,
+      "ties": 1,
+      "losses": 0
+    },
+    {
+      "opponent": "Random (0.5)",
+      "games": 10,
+      "mean_my_score": 276.2,
+      "std_my_score": 8.704022058795578,
+      "mean_opponent_score": 93.7,
+      "wins": 10,
+      "ties": 0,
+      "losses": 0
+    },
+    {
+      "opponent": "Random (0.9)",
+      "games": 10,
+      "mean_my_score": 343.1,
+      "std_my_score": 33.155542523083525,
+      "mean_opponent_score": 203.1,
+      "wins": 10,
+      "ties": 0,
+      "losses": 0
+    },
+    {
+      "opponent": "Tit-for-Tat (10% noise)",
+      "games": 10,
+      "mean_my_score": 169.3,
+      "std_my_score": 20.683568357515103,
+      "mean_opponent_score": 122.3,
+      "wins": 10,
+      "ties": 0,
+      "losses": 0
+    },
+    {
+      "opponent": "Pavlov (10% noise)",
+      "games": 10,
+      "mean_my_score": 290.2,
+      "std_my_score": 8.109253973085318,
+      "mean_opponent_score": 65.7,
+      "wins": 10,
+      "ties": 0,
+      "losses": 0
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "tournament_info": {
+    "total_agents": 3,
+    "bracket_champion": "My Evolved Agent",
+    "bracket_champion_student": "my_tournament_agent",
+    "round_robin_champion": "My Evolved Agent",
+    "total_matches": 18,
+    "generated_at": "2026-10-11 23:51:37"
+  },
+  "agents": [
+    {
+      "student_name": "Doug Dahl",
+      "agent_name": "King kong",
+      "genes": [
+        0.9970462326330012,
+        0.9747697307676272,
+        0.5775165988663097,
+        0.2694337203265058,
+        0.5915625504553477,
+        0.7908011628894027
+      ],
+      "rank": 3,
+      "total_score": 1497,
+      "wins": 1,
+      "win_rate": 0.08333333333333333,
+      "avg_score": 250.25,
+      "is_bracket_champion": false
+    },
+    {
+      "student_name": "Jesse Leyva",
+      "agent_name": "Leyva Adaptive Guard",
+      "genes": [
+        1.0,
+        0.10806718135960316,
+        0.9596804605582223,
+        0.028486584206704694,
+        0.8419352739009551,
+        0.41002771947750827,
+        0.0,
+        1.0,
+        0.9481837114046969,
+        0.7627127683594422
+      ],
+      "rank": 2,
+      "total_score": 1574,
+      "wins": 1,
+      "win_rate": 0.08333333333333333,
+      "avg_score": 280.75,
+      "is_bracket_champion": false
+    },
+    {
+      "student_name": "my_tournament_agent",
+      "agent_name": "My Evolved Agent",
+      "genes": [
+        1.0,
+        1.0,
+        0.48133874186118913,
+        0.0,
+        0.3454967235855081,
+        0.9359113580017795
+      ],
+      "rank": 1,
+      "total_score": 1782,
+      "wins": 4,
+      "win_rate": 0.3333333333333333,
+      "avg_score": 279.9166666666667,
+      "is_bracket_champion": true
+    }
+  ],
+  "bracket_rounds": [
+    {
+      "round_number": 1,
+      "round_name": "\u2694\ufe0f  ROUND 1",
+      "matches": [
+        {
+          "agent1": "My Evolved Agent",
+          "agent2": "Leyva Adaptive Guard",
+          "score1": 30,
+          "score2": 30,
+          "winner": "My Evolved Agent"
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "round_name": "\ud83c\udfc6 FINALS",
+      "matches": [
+        {
+          "agent1": "My Evolved Agent",
+          "agent2": "King kong",
+          "score1": 169,
+          "score2": 144,
+          "winner": "My Evolved Agent"
+        }
+      ]
+    }
+  ],
+  "round_robin_rankings": [
+    {
+      "rank": 1,
+      "agent_name": "My Evolved Agent",
+      "total_score": 1782,
+      "wins": 4,
+      "win_rate": 0.3333333333333333,
+      "avg_score": 279.9166666666667
+    },
+    {
+      "rank": 2,
+      "agent_name": "Leyva Adaptive Guard",
+      "total_score": 1574,
+      "wins": 1,
+      "win_rate": 0.08333333333333333,
+      "avg_score": 280.75
+    },
+    {
+      "rank": 3,
+      "agent_name": "King kong",
+      "total_score": 1497,
+      "wins": 1,
+      "win_rate": 0.08333333333333333,
+      "avg_score": 250.25
+    }
+  ],
+  "all_matches": [
+    {
+      "agent1": "King kong",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 298,
+      "score2": 298,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "King kong",
+      "agent2": "My Evolved Agent",
+      "score1": 259,
+      "score2": 289,
+      "winner": "My Evolved Agent"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "King kong",
+      "score1": 298,
+      "score2": 298,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "My Evolved Agent",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "King kong",
+      "score1": 285,
+      "score2": 265,
+      "winner": "My Evolved Agent"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "King kong",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 299,
+      "score2": 299,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "King kong",
+      "agent2": "My Evolved Agent",
+      "score1": 203,
+      "score2": 228,
+      "winner": "My Evolved Agent"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "King kong",
+      "score1": 226,
+      "score2": 231,
+      "winner": "King kong"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "My Evolved Agent",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "King kong",
+      "score1": 298,
+      "score2": 298,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "King kong",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 298,
+      "score2": 298,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "King kong",
+      "agent2": "My Evolved Agent",
+      "score1": 140,
+      "score2": 160,
+      "winner": "My Evolved Agent"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "King kong",
+      "score1": 150,
+      "score2": 115,
+      "winner": "Leyva Adaptive Guard"
+    },
+    {
+      "agent1": "Leyva Adaptive Guard",
+      "agent2": "My Evolved Agent",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "King kong",
+      "score1": 299,
+      "score2": 299,
+      "winner": "Tie"
+    },
+    {
+      "agent1": "My Evolved Agent",
+      "agent2": "Leyva Adaptive Guard",
+      "score1": 300,
+      "score2": 300,
+      "winner": "Tie"
+    }
+  ],
+  "superlatives": {
+    "most_cooperative": {
+      "agent": "Leyva Adaptive Guard",
+      "avg_score": 280.75
+    },
+    "most_aggressive": {
+      "agent": "My Evolved Agent",
+      "wins": 4,
+      "win_rate": 0.3333333333333333
+    }
+  }
+}
